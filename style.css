@@ -24,3 +24,17 @@ div ul li {
     border-radius: 50px;
   animation:bouncy 1s linear infinite ;
 }
+@keyframes bouncy {
+    0%{
+transform: translateY(0);
+    }
+
+    50%{
+transform: translateY(-150px);
+    }
+
+    100%{
+transform: translateY(0);
+    }
+
+}
